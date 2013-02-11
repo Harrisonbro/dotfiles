@@ -1,0 +1,33 @@
+[user]
+  name = Harrison Brown ([computer name])
+  email = harrisonbro@gmail.com
+[core]
+  quotepath = false
+  excludesfile = /Users/Harrison/.gitignore
+  editor = mate -wl1
+[difftool "Kaleidoscope"]
+[difftool]
+[diff]
+[difftool "Kaleidoscope"]
+  cmd = ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\"
+[difftool]
+  prompt = false
+[diff]
+  tool = Kaleidoscope
+[colour]
+  ui = true
+[mergetool "Kaleidoscope"]
+  cmd = ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" --snapshot \"$REMOTE\" --snapshot
+  trustExitCode = true
+[mergetool]
+  prompt = false
+[merge]
+  tool = Kaleidoscope
+[alias]
+  logg = log --graph --decorate --oneline --abbrev-commit --all
+  st = status
+  co = checkout
+  ci = commit
+  br = branch
+  df = diff
+  dfs = diff
