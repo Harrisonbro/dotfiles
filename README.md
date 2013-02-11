@@ -4,4 +4,4 @@ This is a collection of scripts, hacks and reminders about how I set up my envir
 
 ## Scripts to run
 - ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" ~/bin/subl
-  This adds subl to ~/bin which is my terminal path, allowing use of Sublime Text 2 from the terminal
+This adds subl to ~/bin which is my terminal path, allowing use of Sublime Text 2 from the terminal
