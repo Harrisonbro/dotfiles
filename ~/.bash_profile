@@ -1,3 +1,6 @@
+# Add ~/bin to the PATH
+export PATH=~/bin:$PATH
+
 alias ll="ls -lahG"
 alias ssh1="ssh u64583749@s376755885.websitehome.co.uk"
 alias flush="sudo killall -HUP mDNSResponder"
