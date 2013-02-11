@@ -2,7 +2,7 @@
 export PATH=~/bin:$PATH
 
 alias ll="ls -lahG"
-alias ssh1="ssh u64583749@s376755885.websitehome.co.uk"
+alias ssh1="ssh xxxxx@xxxxx.xx.xx"
 alias flush="sudo killall -HUP mDNSResponder"
 alias mmysql="mysql --host=localhost -uroot -proot"
 alias mmysqldump="mysqldump --host=localhost -uroot -proot"
