@@ -4,7 +4,7 @@
 [core]
   quotepath = false
   excludesfile = /Users/Harrison/.gitignore
-  editor = mate -wl1
+  editor = subl -w
 [difftool "Kaleidoscope"]
 [difftool]
 [diff]
