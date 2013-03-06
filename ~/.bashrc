@@ -1,6 +1,9 @@
 # Add ~/bin to the PATH
 export PATH=~/bin:$PATH
 
+# Add MAMP mysql to PATH
+export PATH=/Applications/MAMP/Library/bin:$PATH
+
 alias ll="ls -lahG"
 alias ssh1="ssh xxxxx@xxxxx.xx.xx"
 alias flush="sudo killall -HUP mDNSResponder"
