@@ -4,6 +4,9 @@ export PATH=~/bin:$PATH
 # Add MAMP mysql to PATH
 export PATH=/Applications/MAMP/Library/bin:$PATH
 
+# Add gmvault to the PATH
+export PATH=~/bin/gmvault-v1.7-beta/bin:$PATH
+
 alias ll="ls -lahG"
 alias ssh1="ssh xxxxx@xxxxx.xx.xx"
 alias flush="sudo killall -HUP mDNSResponder"
