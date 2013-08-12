@@ -9,6 +9,7 @@ export PATH=~/bin/gmvault-v1.7-beta/bin:$PATH
 
 alias ll="ls -lahG"
 alias ssh1="ssh xxxxx@xxxxx.xx.xx"
+alias sshtbn="ssh xxx@www.tbnetwork.org"
 alias flush="sudo killall -HUP mDNSResponder"
 alias mmysql="mysql --host=localhost -uroot -proot"
 alias mmysqldump="mysqldump --host=localhost -uroot -proot"
