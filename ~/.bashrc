@@ -4,6 +4,9 @@ export PATH=~/bin:$PATH
 # Add MAMP mysql to PATH
 export PATH=/Applications/MAMP/Library/bin:$PATH
 
+# Add MAMP php to PATH
+export PATH=/Applications/MAMP/bin/php/php5.4.10/bin:$PATH
+
 # Add gmvault to the PATH
 export PATH=~/bin/gmvault-v1.7-beta/bin:$PATH
 
