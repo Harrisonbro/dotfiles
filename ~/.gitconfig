@@ -23,6 +23,8 @@
   prompt = false
 [merge]
   tool = Kaleidoscope
+[push]
+	default = simple
 [alias]
   logg = log --graph --decorate --oneline --abbrev-commit --all
   st = status
